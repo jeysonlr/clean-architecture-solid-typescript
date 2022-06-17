@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests --watch",
+    "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
   "author": "Jeyson Luiz Romualdo",
@@ -21,7 +21,7 @@
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-standard": "^4.1.0",
     "git-commit-msg-linter": "^4.1.3",
-    "husky": "^4.0.6",
+    "husky": "^4.3.8",
     "jest": "^24.9.0",
     "lint-staged": "^9.5.0",
     "ts-jest": "^24.3.0",
